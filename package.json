@@ -1,7 +1,7 @@
 {
-  "name": "findpair",
-  "version": "1.0.0",
-  "description": "game, where you need to find pair of images",
+  "name": "collection",
+  "version": "1.0.1",
+  "description": "my collection",
   "main": "index.js",
   "scripts": {
     "test": "webpack serve --open",
