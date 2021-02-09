@@ -1,0 +1,66 @@
+// {
+//   "compilerOptions": {
+//     "target": "ES5",
+//     "module": "ESNext",
+//     "lib": ["ES5", "ScriptHost", "DOM", "ES6"],
+//     "moduleResolution": "Node",
+//     "esModuleInterop": true,
+//     "skipLibCheck": true,
+//     "skipDefaultLibCheck": true,
+//     "strict": true,
+//     "baseUrl": "./src",
+//     "paths": {
+//       "@app": ["src/app/*"],
+//       "@core": ["src/core/*"]
+//     },
+//     "outDir": "./dist",
+//     "forceConsistentCasingInFileNames": true,
+//     "importsNotUsedAsValues": "preserve", // this is important for proper files watching,
+//     "jsx": "react",
+//     "noImplicitAny": true,
+//     "noImplicitThis": true,
+//     "strictNullChecks": true,
+   
+//   },
+//   "include": ["src/**/*"],
+//   "exclude": ["node_modules"],
+
+// }
+
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": [
+        "es5", 
+        "es6", 
+        "es7", 
+        "ES2017", 
+        "ES2018", 
+        "ES2019", 
+        "dom"
+    ],
+    "allowJs": false,
+    "checkJs": false,
+    "strict": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowUnreachableCode": true,
+    "pretty": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "baseUrl": "./",
+    "rootDir": "./",
+    "paths": {
+			"@core/*": ["src/core/*"],
+			"@app/*": ["src/app/*"],
+      "@assets/*": ["src/assets/*"]
+    },
+  },
+  // "include": ["src/**/*"],
+  // "exclude": ["node_modules", "**/node_modules/*"]
+}

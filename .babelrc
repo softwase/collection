@@ -1,0 +1,29 @@
+{
+  "presets": [
+    "@babel/preset-env", 
+    "@babel/preset-react"
+
+  ],
+  "env": {
+    "development": {
+        "plugins": [
+            "react-refresh/babel"
+        ]
+    }
+},
+  "plugins": [
+    [
+        "module-resolver",
+        {
+            "root": [
+                "./src"
+            ],
+            "alias": {
+                "@app": "./src/app",
+                "@core": "./src/core",
+                "@assets": "./src/assets"
+            }
+        }
+    ]
+  ]
+}
