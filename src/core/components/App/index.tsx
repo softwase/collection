@@ -1,11 +1,9 @@
 import React from 'react';
 
-import Main from '@app/components/Main';
+import Main  from '@app/components/Main';
 
-const App = () => {
-  return (
+const App = () => (
     <Main />
-  )
-}
+);
 
 export default App;
